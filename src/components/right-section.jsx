@@ -11,7 +11,7 @@ const RightSection = () => {
   const Streak = [
     {
       title: "4 days in a row!",
-      description: "You're doing great Haziq!",
+      description: "You’re doing great Micheal!",
       image: "/fire.png",
     },
   ];
@@ -50,7 +50,7 @@ const RightSection = () => {
             </CardHeader>
 
             <CardContent>
-              <div className="flex flex-col items-center text-center px-4 gap-1">
+              <div className="flex flex-col items-center text-center px-2 gap-1">
                 <CardTitle className="text-sm sm:text-xl md:text-xl font-medium leading-tight">
                   {item.title}
                 </CardTitle>

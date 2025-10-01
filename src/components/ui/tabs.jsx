@@ -6,32 +6,32 @@ const Tabs = () => {
     {
       title: "",
       url: "#",
-      image: "/Learn.png",
+      image: "/filter.png",
     },
     {
-      title: "Economy",
+      title: "💰 Economy",
       url: "#",
-      image: "/Learn.png",
+      image: "",
     },
     {
-      title: "Politics",
+      title: "🏛️ Politics ",       
       url: "#",
-      image: "/Learn.png",
+      image: "",
     },
     {
-      title: "World News",
+      title: "🌍 World News",
       url: "#",
-      image: "/Learn.png",
+      image: "",
     },
     {
-      title: "Culture & Lifestyle",
+      title: "🎭 Culture & Lifestyle",
       url: "#",
-      image: "/Learn.png",
+      image: "",
     },
     {
-      title: "Security & Defense",
+      title: "🔒 Security & Defense",
       url: "#",
-      image: "/Learn.png",
+      image: "",
     },
   ];
 

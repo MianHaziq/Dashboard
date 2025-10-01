@@ -31,17 +31,17 @@ const data = {
         {
           title: "Progress Tracker",
           url: "#",
-          image: "/Learn.png",
+          image: "/progress.png",
         },
         {
           title: "Profile",
           url: "#",
-          image: "/Learn.png",
+          image: "/profile.png",
         },
         {
           title: "Settings",
           url: "#",
-          image: "/Learn.png",
+          image: "/setting.png",
         },
       ],
     },
@@ -65,10 +65,10 @@ export function AppSidebar({ ...props }) {
                 {item.items.map((navItem) => {
                   const isActive = activeItem === navItem.title
                   return (
-                   <SidebarMenuItem key={navItem.title}>
+                   <SidebarMenuItem  key={navItem.title}>
   <div
     className={`flex justify-start items-center rounded-md cursor-pointer px-2 py-1
-      ${isActive ? "bg-[#E3EEE4] font-bold text-black" : "text-gray-500"}
+      ${isActive ? "bg-[#E3EEE4] font-bold text-black " : "text-gray-500"}
     `}
     onClick={() => setActiveItem(navItem.title)}
   >
@@ -76,7 +76,7 @@ export function AppSidebar({ ...props }) {
     <SidebarMenuButton asChild isActive={isActive}>
       <a 
         href={navItem.url} 
-        className={` ${isActive ? "text-black" : "text-gray-500"}`} 
+        className={` ${isActive ? " bg-[#E3EEE4]  text-black" : "text-gray-500"}`} 
       >
         {navItem.title}
       </a>

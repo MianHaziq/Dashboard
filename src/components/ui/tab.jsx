@@ -27,7 +27,7 @@ const Tab = ({ tabList }) => {
           >
             <img
               src={tab.image}
-              alt={tab.title}
+              
               className="h-5"
             />
             <span className="text-xs">{tab.title}</span>

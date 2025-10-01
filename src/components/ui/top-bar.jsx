@@ -27,10 +27,10 @@ const TopBar = ({ className }) => {
 
   <div className="hidden sm:flex flex-col mr-2 md:mr-0">
     <div className="font-medium sm:text-xs md:text-sm lg:text-sm">
-      Muhammad Haziq
+      Micheal Jordan
     </div>
     <div className="text-xs md:text-xs text-gray-600">
-      haziqnazeer@gmail.com
+      micheal@gmail.com
     </div>
   </div>
 </div>
