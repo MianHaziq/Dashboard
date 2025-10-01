@@ -26,8 +26,8 @@ const ArticleCard = ({
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 text-[11px] sm:text-xs text-black sm:ml-auto">
-            <div className="inline-flex items-center gap-2 bg-[#EFF5EF] rounded-full p-2 ">
+          <div className="flex flex-col sm:flex-row  sm:items-center gap-2 sm:gap-3 text-[11px] sm:text-xs text-black sm:ml-auto">
+            <div className="inline-flex items-center gap-2 h-auto bg-[#EFF5EF] rounded-full p-2 ">
               {item.catImage && (
                 <img
                   src={item.catImage}
