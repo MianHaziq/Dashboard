@@ -1,4 +1,3 @@
-import React from "react";
 import { Card, CardContent, CardFooter, CardHeader } from "./card";
 
 const ArticleCard = ({

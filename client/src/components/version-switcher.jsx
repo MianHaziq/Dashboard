@@ -1,16 +1,11 @@
-import * as React from "react"
 
 
 import {
   SidebarMenu,
-  SidebarMenuButton,
   SidebarMenuItem,
 } from "./ui/sidebar"
 
-export function VersionSwitcher({
-  versions,
-  defaultVersion
-}) {
+export function VersionSwitcher() {
 
   return (
     <SidebarMenu>
