@@ -1,13 +1,14 @@
-import  { useState } from "react";
+import { useState } from "react";
+import PropTypes from "prop-types"; // ✅ Import PropTypes
 
 const Tab = ({ tabList }) => {
   const [activeTab, setActiveTab] = useState(null);
 
   const handleTabClick = (title) => {
     if (activeTab === title) {
-      setActiveTab(null); 
+      setActiveTab(null);
     } else {
-      setActiveTab(title); 
+      setActiveTab(title);
     }
   };
 
@@ -25,17 +26,22 @@ const Tab = ({ tabList }) => {
                 : "bg-gray-100 text-black border-black"
             }`}
           >
-            <img
-              src={tab.image}
-              
-              className="h-5"
-            />
+            <img src={tab.image} className="h-5" />
             <span className="text-xs">{tab.title}</span>
           </div>
         ))}
       </div>
     </div>
   );
+};
+
+Tab.propTypes = {
+  tabList: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      image: PropTypes.string,
+    })
+  ).isRequired,
 };
 
 export default Tab;

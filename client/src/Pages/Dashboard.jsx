@@ -1,4 +1,3 @@
-import React from "react";
 import MainSection from "../components/main-section";
 
 const Dashboard = () => {

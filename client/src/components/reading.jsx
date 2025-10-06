@@ -32,7 +32,7 @@ const Reading = () => {
   return (
     <>
       <div className="flex justify-between items-center flex-wrap gap-4 mb-6">
-        <div className="text-xl sm:text-2xl font-semibold">Today's article</div>
+        <div className="text-xl sm:text-2xl font-semibold">Today&apos;s article</div>
         <div className="text-lg sm:text-xl font-semibold cursor-pointer hover:underline">
           View all
         </div>

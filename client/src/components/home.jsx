@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Tabs from './ui/tabs'
 import Reading from './reading'
 import Listening from './listening'
